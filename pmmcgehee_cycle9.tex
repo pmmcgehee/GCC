@@ -6,6 +6,8 @@
 \usepackage{graphicx}
 \usepackage{amssymb}
 \usepackage{epstopdf}
+\usepackage{sidecap}
+
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
@@ -28,7 +30,7 @@ cold core in the massive star forming clump G016.96+00.27 in the Eagle Nebula re
 (2) To evaluate the relative importance of magnetic field, turbulence and gravity by measuring the magnetic field strength, turbulent strength and the mass-to-flux ratio, 
 (3) To measure variations in the polarization fraction 
 as an indicator of variations in the 3D field structure and the physics of grain alignment (related to field geometry and grain alignment including with regards to column density),  
-4) To study the relative magnetic field orientations along filaments to infer the possible 3D field configurations?
+4) To study the relative magnetic field orientations along filaments to infer the possible 3D field configurations,
 and 
 (5) To analyze the elongation of cores 
 as an indicator of the influence of B-fields on the final mass accretion.
@@ -38,7 +40,6 @@ We will obtain polarization intensity and orientation from cold dust by using SO
 estimated location of young stellar objects. The plane-of-the-sky magnetic field strength will be obtained using Davis-Chandrasekhar-Fermi method. 
 
 {\bf Synergies} - This work expands on observations made with Planck, the Herschel PACS and SPIRE instruments, and SCUBA-POL by extending polarimetry measurements down to 214 $\mu$m. 
-{\bf towards a future ALMA proposal?}
 
 {\bf Anticipated results} - We will produce high spatial resolution maps of the polarized intensity and polarization angles as well as of the 
 continuum emission at 214 $\mu$m. 
@@ -48,7 +49,6 @@ with Planck, Herschel, and SCUBA-POL data.
 \newpage
 
 \section{Scientific Justification}
-
 
 
 \subsection{Introduction}
@@ -72,8 +72,6 @@ on the individual scale, and so extensive surveys of stars at different
 stages of their formation process and in different environments
 are required.
 
-{\bf MJ: The rest of this section one could compress by 50\%, to leave room for description of SCUBA data}
-
 A new approach to the study of the earliest stages of star formation
 has been enabled by the Planck satellite (Tauber et al.
 2010) that provided
@@ -89,8 +87,8 @@ medium.
 The cold (T$_{dust}$ $\lesssim$ 17 K) and compact (close to beam
 size) objects were listed the Planck Catalogue of Galactic Cold Clumps (PGCC, Planck
 Collaboration XXVIII 2015), which contains 13188 Galactic
-sources. 
-This  catalog includes clumps
+sources, and 
+includes clumps
 which possibly host pre-stellar cores and starless cores at subparsec
 scales. 
 %% Because of the limited resolution, it is dominated
@@ -120,7 +118,7 @@ the individual cores.
 %%and SPIRE
 %%instruments. 
 In this project, we use data obtained from the Hi-GAL Galactic
-plane survey (Molinari et al. 2010) and the SPIRE point source catalogue(Schulz et al. 2017) but will carry out more detailed cold core analysis for 
+plane survey (Molinari et al. 2010) and the SPIRE point source catalogue (Schulz et al. 2017) but will carry out more detailed cold core analysis for 
 core masses, morphologies, temperature, environments, distances, and evolutionary states following Montillaud et al. 2015.
 
 The addition of core-scale magnetic field studies through polarization
@@ -165,14 +163,12 @@ The interstellar radiation field in these filamentary molecular cloud environmen
 \end{figure}
 
 
-
-\begin{figure}[h]
-\includegraphics[height=2in]{g16_planckpol.jpg}
-\caption{Magnetic field orientation around G016.97+00.27 as inferred from 90 degrees rotation of Planck polarization observations (5 arcmin resolution)
-{\bf MJ: there are ~5 vector per beam... a bit too much oversampling?}
-{\bf MJ: What is the background image, in line-area units?}
-\label{fig:planckpol}}
-\end{figure}
+\begin{SCfigure}[50][h]
+\includegraphics[height=2in]{G16p96_SCUBAPOL_FWHM18.png}
+\caption{Magnetic field orientation around G016.97+00.27 as inferred from 90 degrees rotation of SCUBA-POL polarization observations at 850 $\mu$m (18 arcsec resolution). The magnetic field vectors are overlaid on the 850 $\mu$m continuum
+image.
+\label{fig:scubapol}}
+\end{SCfigure}
 
 
 \subsection{The importance of SOFIA}
@@ -183,12 +179,10 @@ At these wavelengths, where the spectral energy distribution of the cold dust as
 with the earliest stages of star formation peaks, access to altitudes far exceeding those of the
 highest earth-bound observatories is required. 
 
-{\bf MJ: from SCUBA-POL and, at large scale, from Planck,}
-{\bf MJ: should be differences in the polarisation fraction and polarisation angles between}
 
 The combination of this observatory providing FIR polarization measurements
 with submillimeter data, will enable study of the SED of the polarized dust emission and to check for wavelength dependence in the derived polarization angles
-There could theoretically be some difference between 214$\mu$m and 450/850 $\mu$m because of the different contributions of carbonaceous and silicate grains  and because 850$\mu$m would be more sensitive to cold dust while 214$\mu$m is weighted more towards the warmer surface layers, giving rise to differences in the measured polarization angles.
+There could theoretically be some difference between 214 $\mu$m and 450/850 $\mu$m because of the different contributions of carbonaceous and silicate grains  and because 850$\mu$m would be more sensitive to cold dust while 214$\mu$m is weighted more towards the warmer surface layers, giving rise to differences in the measured polarization angles.
 
  
 \subsection{Target selection}
@@ -206,17 +200,12 @@ $^{13}$CO spectra
 obtained using the JCMT over a 5-arcminute patch
 show a single velocity component at  $\sim$25 km s$^{-1}$, indicating that no cloud confusion is present along the line of sight. The western bright core is associated with the massive protostar MSX6C G016.9261+00.2854 (Urquhart et al. 2011).
 
-
 Additional ancillary data on hand include $^{12}$CO(1-0), $^{13}$CO(1-0), and C$^{18}$O(1-0) line studies at 0.3 km s$^{-1}$ resolution from the TRAO 13.7m, 
 and extensive astrochemical studies using the NRO 45m of N$_2$H$^+$, CCS, HC$_3$N, DNC, HN$^3$C, N$_2$D$^+$, and cyclic-C$_3$H$_2$ at 
 0.05 km s$^{-1}$ resolution (Tatematsu et al. 2017).
 
-In Figure \ref{fig:fields} we present the field using SPIRE 250 $\mu$m and PACS 70 and 160 $\mu$m imaging. At high column densities, the observed polarization fraction could be low, even down to ~1\%, but high surface brightness still results in SNR$>>$3. At lower surface brightness the polarization fractions are typically higher, because of less magnetic field tangling or stronger grain alignment. At 5 arcmin scale, Planck observes in these regions polarization fractions of some 3\%
-with inferred magnetic field directions perpendicular to the filament.
-
-{\bf MJ: need further information on the filament (column density, temperature, length, width), perhaps including a larger figure showing the column densities at \~HAWC+ resolution (and the SCUBA-POL polarisation vectors)
-}
-
+In Figure \ref{fig:fields} we present the field using SPIRE 250 $\mu$m and PACS 70 and 160 $\mu$m imaging. At high column densities, the observed polarization fraction could be low, even down to ~1\%, but high surface brightness still results in SNR$>>$3. At lower surface brightness the polarization fractions are typically higher, because of less magnetic field tangling or stronger grain alignment. At 18 arcsec scale, SCUBA-POL observes in these regions polarization fractions of some 3\%
+with inferred magnetic field directions generally perpendicular to the filament, except for significant bending in the southeast section (Figure \ref{fig:scubapol}).
 
 
 \clearpage
@@ -291,7 +280,7 @@ given the 470 arcsec$^2$ SPIRE beam size.  In the lower column density regions w
 observation we can reach down to 2.6 Jy/beam contour, enabling mapping of the extended emission notably to the north of the filament.
 
 In order to map both the east and west sides of the filament, we propose to observe two overlapping FOVs. These are centered 1\' north of the filament to include
-the fainter extended emission. Given the complex structure of the region we propose a chop throw of 500\" at an angle of 30$^o$. 
+the fainter extended emission. Given the complex structure of the region we propose a chop throw of 500$"$ at an angle of 30$^o$. 
 The total required observation time is 8 hours, split between two 4-hour fields.
 
 
