@@ -11,7 +11,7 @@
 
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-\title{High resolution mapping of magnetic fields in the high-mass star-forming region  G016.96+00.27}
+\title{High resolution mapping of magnetic fields in the high-mass star-forming region G016.96+00.27}
 
 %\date{}                                           % Activate to display a given date or no date
 
@@ -20,26 +20,27 @@
 
 
 \section{Scientific Context}
-{\bf Context} - It remains still very unclear how dense cores form in filaments and what the role of the  magnetic field is in dense core formation. 
-It is statistically identified that Planck Galactic Cold Clumps in filaments exhibit a bimodal distribution of the relative orientation between matter and the magnetic field in the filaments with high density contrast with respect to their environment (Alina et al. 2019).  A detailed polarimetric analysis of individual filaments will bring hints on how the magnetic field influences the formation and evolution of cores in the cold clumps.
-
+{\bf Context} - It remains still very unclear how dense cores form in filaments and what the process is affected by the magnetic fields.
+The filaments exhibit a bimodal distribution, where their orientation turns from parallel to perpendicular as the density contrast with respect to the environment increases  (Alina et al. 2019).
+The accretion flows and the final gravitational collapse of the cores is expected to again change the field morphology. 
+A detailed polarimetric analysis of individual filaments will thus bring hints on the role of the magnetic fields in the filament and core evolution.
 
 {\bf Aims} - We aim to observe the magnetic field at high spatial resolution toward the 
 cold core in the massive star forming clump G016.96+00.27 in the Eagle Nebula region:
-(1) To follow the magnetic field morphology from Planck observations $\sim$1 pc) down to the core scale (0.1-0.2 pc) probed by SCUBA-POL and HAWC+, 
+(1) To follow the magnetic field morphology from Planck observations ($\sim$1 pc) down to the core scale (0.1-0.2 pc) probed by SCUBA-POL and HAWC+, 
 (2) To evaluate the relative importance of magnetic field, turbulence and gravity by measuring the magnetic field strength, turbulent strength and the mass-to-flux ratio, 
 (3) To measure variations in the polarization fraction 
-as an indicator of variations in the 3D field structure and the physics of grain alignment (related to field geometry and grain alignment including with regards to column density),  
-4) To study the relative magnetic field orientations along filaments to infer the possible 3D field configurations,
+as an indicator of variations in the 3D field structure and the physics of grain alignment,  
+4) To study the relative magnetic field orientations along filaments to examine the relative importance of the magnetic fields and to infer the possible 3D field configurations,
 and 
 (5) To analyze the elongation of cores 
 as an indicator of the influence of B-fields on the final mass accretion.
 
 {\bf Methods} - 
-We will obtain polarization intensity and orientation from cold dust by using SOFIA's HAWC+ imaging polarimeter in Band E (214 $\mu$m) to be compared with the cloud structure and the 
-estimated location of young stellar objects. The plane-of-the-sky magnetic field strength will be obtained using Davis-Chandrasekhar-Fermi method. 
+We will obtain polarization intensity and orientation from dust emisison by using SOFIA's HAWC+ imaging polarimeter in Band E (214 $\mu$m) to be compared with the cloud structure and the 
+estimated location of young stellar objects. The plane-of-the-sky magnetic field strength will be obtained using {\bf the Davis-Chandrasekhar-Fermi (DCF) method}. 
 
-{\bf Synergies} - This work expands on observations made with Planck, the Herschel PACS and SPIRE instruments, and SCUBA-POL by extending polarimetry measurements down to 214 $\mu$m. 
+{\bf Synergies} - This work expands on observations made with Planck, the Herschel PACS and SPIRE instruments, {\bf and extending the SCUBA-POL polarimetry to a more extended region and down to 214 $\mu$m.} 
 
 {\bf Anticipated results} - We will produce high spatial resolution maps of the polarized intensity and polarization angles as well as of the 
 continuum emission at 214 $\mu$m. 
@@ -53,18 +54,19 @@ with Planck, Herschel, and SCUBA-POL data.
 
 \subsection{Introduction}
 
-How stars form is one of the most central questions in astrophysics.
+How stars form is one of the most 
+central questions in astrophysics.
 It is closely related to major astrophysical problems,
 from galaxy structure, formation, and evolution to the dynamics
 and chemical evolution of the interstellar medium. It is a complex
 process resulting from the interplay between many physical
 phenomena including turbulence, magnetic fields, kinematics,
-and gravity formation. 
+and gravity. 
 The main parts of the star formation process are understood well, starting from molecular
 clouds and progressing via dense cores down to protostellar
 collapse (McKee \& Ostriker 2007). This knowledge has
 emerged from the detailed observations of the nearest low-mass
-and intermediate-mass star formation regions and, in addition,
+and intermediate-mass star formation regions and
 from sophisticated numerical modelling (Hennebelle et al. 2011;
 Padoan \& Nordlund 2011). The next step in improving the overall
 view of star formation consists in understanding the process
@@ -83,7 +85,6 @@ has been enabled by the Planck satellite (Tauber et al.
 an all-sky inventory at 5' resolution
 of the coldest structures of the interstellar
 medium. 
-
 The cold (T$_{dust}$ $\lesssim$ 17 K) and compact (close to beam
 size) objects were listed the Planck Catalogue of Galactic Cold Clumps (PGCC, Planck
 Collaboration XXVIII 2015), which contains 13188 Galactic
@@ -97,9 +98,9 @@ scales.
 %% of the objects ensures that only the denser, less evolved
 %% regions which are significantly shielded from the interstellar radiation
 %% field are included. 
-The objects detected by Planck are
-likely to contain one or several cores, many of which will be prestellar
-or in early stages of protostellar evolution. 
+%% The objects detected by Planck are
+%% likely to contain one or several cores, many of which will be prestellar
+%% or in early stages of protostellar evolution. 
 
 Thanks to its higher spatial resolution, 
 Herschel PACS and SPIRE imaging
@@ -107,7 +108,7 @@ helped to resolve
 %%makes it possible to examine 
 the structure of the
 sources which gave rise to the Planck detections, often including 
-the individual cores. 
+individual cores at prestellar or early protostellar stages.
 %%The inclusion of shorter wavelengths
 %%(down to 70 or 100 $\mu$m) helps to determine the physical characteristics
 %%of the sources and their environments, and to investigate
@@ -118,10 +119,12 @@ the individual cores.
 %%and SPIRE
 %%instruments. 
 In this project, we use data obtained from the Hi-GAL Galactic
-plane survey (Molinari et al. 2010) and the SPIRE point source catalogue (Schulz et al. 2017) but will carry out more detailed cold core analysis for 
+plane survey (Molinari et al. 2010) and the SPIRE point source catalogue (Schulz et al. 2017). 
+We have selected for the study the filamentary cloud G16.97+00.27 which has an estimated mass comparable to the 
+Orion Nebula (M 42) and we will carry out a detailed cold core analysis for 
 core masses, morphologies, temperature, environments, distances, and evolutionary states following Montillaud et al. 2015.
 
-The addition of core-scale magnetic field studies through polarization
+The addition of core-scale and also more extended (in the filament width direction) than possible with SCUBA magnetic field studies through HAWC+ polarization
 measurements will add to the understanding of how the gravity, magnetic
 fields, and turbulence contribute to the formation of pre-stellar cores and how their relative importance may vary from
 in different environments.
@@ -139,7 +142,7 @@ that the magnetic field tends to be perpendicular to the dense filamentary cloud
 at low densities (e.g. Chapman et al. 2011, Cox et al. 2016; Malinen et al. 2016, Planck Collaboration Int. XXXII 2016, Planck Collaboration Int. XXXV 2016). 
 This magnetic field alignment is also seen in the recent 850$\mu$m JCMT/POL-2 studies of  G34.42+0.24 (Soam et al. 2019) and 
  and G035.39-00.33 (Liu et al. 2018).
-However, most previous near-infrared absorption polarimetry is limited to the low-density, diffuse cloud material with current upper limits, after substantial correction for the known 3-D magnetic field structure, of $A_V \sim 20$ {Kandori et al. 2018). Polarized sub-millimeter thermal dust emission can trace dense region in clouds. 
+Most previous near-infrared absorption polarimetry is limited to the low-density, diffuse cloud material with current upper limits, after substantial correction for the known 3-D magnetic field structure, of $A_V \sim 20$ {Kandori et al. 2018). Polarized sub-millimeter thermal dust emission can trace dense region in clouds. 
 
 While Planck sub-millimeter polarimetry is limited due to its low angular resolution (Planck Collaboration et al. 2016), high angular resolution observations of polarized sub-millimeter thermal dust emission on both cloud scales and core scales toward filamentary clouds are still very rare. 
 From both optical polarimetry and high angular resolution sub-millimeter polarimetry with CSO and SMA, Li et al. (2015b) found that the magnetic field directions do not change much over the 100 to 0.01 parsec scale in the filamentary cloud NGC 6334, where the fields are not severely affected by stellar feedback. 
@@ -158,32 +161,33 @@ The interstellar radiation field in these filamentary molecular cloud environmen
 \begin{figure}
 \includegraphics[height=2in]{g16_nmc.png}
 \includegraphics[height=2in]{g16_c3a.png}
-\caption{Target field: G16. {\it Left.}  The two NMC mode polarimetry fields are overlaid on an RGB map based on SPIRE 250 micron, PACS 160 micron, and PACS 70 micron imaging.  The hot dust to the East is the famous Eagle Nebula (M16).  {\it Right.} A detail of targeted filament and cores showing contours at SPIRE 250 micron flux densities of 2.6 ($\sigma_{pol} = 3\%$ detection limit), 7.8 ($\sigma_{pol} = 1\%$ detection limit), 8, 9, and 10 Jy/beam. 
+\caption{Target field: G16. {\it Left.}  The two NMC mode polarimetry fields are overlaid on an RGB map based on SPIRE 250, PACS 160, and PACS 70 imaging.  The hot dust to the East is the famous Eagle Nebula (M16).  {\it Right.} A detail of targeted filament and cores showing contours at SPIRE 250 micron flux densities of 2.6 ($\sigma_{pol} = 3\%$ detection limit), 7.8 ($\sigma_{pol} = 1\%$ detection limit), 8, 9, and 10 Jy/beam. Mapping of the extended emission at least at the SNR=3 detection limit is expected due the higher ($\sim3\%$) polarization fractions in the lower column density regions - far outside the region where SCUBA/POL-2 data are useful.
 \label{fig:fields}}
 \end{figure}
 
 
-\begin{SCfigure}[50][h]
+\begin{figure}[h]
 \includegraphics[height=2in]{G16p96_SCUBAPOL_FWHM18.png}
-\caption{Magnetic field orientation around G016.97+00.27 as inferred from 90 degrees rotation of SCUBA-POL polarization observations at 850 $\mu$m (18 arcsec resolution). The magnetic field vectors are overlaid on the 850 $\mu$m continuum
-image.
+\includegraphics[height=2in]{g16_planckpol.jpg}
+\caption{{\it Left.} Magnetic field orientation around G016.97+00.27 as inferred from 90 degrees rotation of SCUBA-POL polarization observations at 850 $\mu$m (18 arcsec resolution). The magnetic field vectors are overlaid on the 850 $\mu$m continuum.
+{\it Right}. Planck polarization observations at a 5 arcmin resolution showing the magnetic field in the local galactic environment.
 \label{fig:scubapol}}
-\end{SCfigure}
+\end{figure}
 
 
 \subsection{The importance of SOFIA}
 
 In the post-Herschel era SOFIA offers a nearly unique platform for studies in the Far-Infrared
-wavelengths dominated by the spectral features of water present in the terrestrial atmosphere.
-At these wavelengths, where the spectral energy distribution of the cold dust associated 
-with the earliest stages of star formation peaks, access to altitudes far exceeding those of the
-highest earth-bound observatories is required. 
+wavelengths
+where the spectral energy distribution of the cold dust associated 
+with the earliest stages of star formation peaks, providing access to altitudes far exceeding those of the
+highest earth-bound observatories.
 
-
-The combination of this observatory providing FIR polarization measurements
-with submillimeter data, will enable study of the SED of the polarized dust emission and to check for wavelength dependence in the derived polarization angles
-There could theoretically be some difference between 214 $\mu$m and 450/850 $\mu$m because of the different contributions of carbonaceous and silicate grains  and because 850$\mu$m would be more sensitive to cold dust while 214$\mu$m is weighted more towards the warmer surface layers, giving rise to differences in the measured polarization angles.
-
+By combining submillimeter data with the SOFIA FIR polarization measurements, one can study the SED of the polarized dust emission and to check for wavelength dependence in the derived polarization angles.
+There could theoretically be small differences between
+214 $\mu$m and 350/850 $\mu$m data because of the different contributions of carbonaceous and silicate grains at these wavelengths. 
+Furthermore, the 850 $\mu$m observations are sensitive to cold dust while the 214 $\mu$m is slightly more weighted towards the warmer surface layers.
+Differences in the observed polarization angles and polarization fractions would thus also reflect the 3D B-field structure of the cloud.
  
 \subsection{Target selection}
 
@@ -191,9 +195,12 @@ In this proposal we seek to study the role of magnetic fields in the formation o
 nearby giant molecular clouds.
 We will evaluate the relative importance of magnetic field, turbulence and gravity by measuring the magnetic field strength, turbulent strength and the mass-to-flux ratio.
 
-From the set of sources for which we have Herschel imaging, and for which we have or will obtain polarization data at  450 and 850 microns from JCMT/POL-2, included as part of JCMT SCOPE survey of 1000 PGCCs (Liu et al. 2018), we consider those that are within 2 kpc, have Declinations north of -15 degrees, and that are not subject to line of sight confusion. The distance limit corresponds to a resolution better than the typical 0.2 parsec core scale given the HAWC+ Band E FWHM of 18.2 arcsec. 
+From the set of sources for which there exists Herschel imaging, and for there is also polarization data at 450 and 850 $\mu$m from JCMT/POL-2, included as part of JCMT SCOPE survey of 1000 PGCCs (Liu et al. 2018), we consider those that are within 2 kpc, have Declinations north of -15 degrees, and that are not subject to line of sight confusion. The distance limit corresponds to a resolution better than the typical 0.2 parsec core scale given the HAWC+ Band E FWHM of 18.2 arcsec. 
 
-The GMC that we select is G16.96+0.27 (G16) from the JCMT SCOPE survey. It is among brightest 850 $\mu$m sources in the SCOPE catalog and hence appropriate for JCMT/POL-2 observations. G16 is a structurally simple and largely quiescent cloud near the Eagle Nebula (M16) at a distance of 1.8 kpc. 
+The GMC that we select is G16.96+0.27 (G16). It is among the brightest 850 $\mu$m sources in the SCOPE catalog and hence appropriate for JCMT/POL-2 observations. G16 is a structurally simple and largely quiescent cloud near the Eagle Nebula (M16) at a distance of 1.8 kpc. 
+According to Herschel data, the densest filament ($N({\rm H_2}) > 10^{22}$\,cm$^{-2}$)) has a length of $\sim 10$ arcmin, a peak column density $\sim 5\times10^{23}$\,cm$^{-2}$, and a mass of $\sim 3000$ solar masses.
+The filament has been subsequently mapped with the JCMT/POL-2 instrument (Tie Liu, {\it private communication}). 
+The 850 $\mu$m polarization data reveal that the magnetic field is mainly perpendicular to the filament main axis, with some  signs of a pinched magnetic field morphology, suggestive of the influence of accretion flows.
 The BISTRO program has observed the much fainter Pillars of Creation in M16 successfully so POL-2 detections are assured for G16 (Pattle et al. 2018).
 
 $^{13}$CO spectra 
@@ -203,8 +210,9 @@ show a single velocity component at  $\sim$25 km s$^{-1}$, indicating that no cl
 Additional ancillary data on hand include $^{12}$CO(1-0), $^{13}$CO(1-0), and C$^{18}$O(1-0) line studies at 0.3 km s$^{-1}$ resolution from the TRAO 13.7m, 
 and extensive astrochemical studies using the NRO 45m of N$_2$H$^+$, CCS, HC$_3$N, DNC, HN$^3$C, N$_2$D$^+$, and cyclic-C$_3$H$_2$ at 
 0.05 km s$^{-1}$ resolution (Tatematsu et al. 2017).
+The line data are needed for the DCF estimates, to study variations in the level of turbulence, and to correlate the magnetic field morphology with signs of accretion flows.
 
-In Figure \ref{fig:fields} we present the field using SPIRE 250 $\mu$m and PACS 70 and 160 $\mu$m imaging. At high column densities, the observed polarization fraction could be low, even down to ~1\%, but high surface brightness still results in SNR$>>$3. At lower surface brightness the polarization fractions are typically higher, because of less magnetic field tangling or stronger grain alignment. At 18 arcsec scale, SCUBA-POL observes in these regions polarization fractions of some 3\%
+In Figure \ref{fig:fields} we present the field using SPIRE 250 $\mu$m and PACS 70 and 160 $\mu$m imaging. At high column densities, the observed polarization fraction could be low, even down to ~1\%, but high surface brightness still results in SNR$>>$3. At lower surface brightness the polarization fractions are typically higher, because of less magnetic field tangling or stronger grain alignment. At 18 arcsec scale, SCUBA-POL observes in these regions polarization fractions of some $2-3\%$
 with inferred magnetic field directions generally perpendicular to the filament, except for significant bending in the southeast section (Figure \ref{fig:scubapol}).
 
 
@@ -259,10 +267,10 @@ Zhang, Q., et al. 2014, ApJ, 792, 116
 
 The Band E HAWC+ beam at 18.2 arcsec FWHM offers identical angular resolution to the Herschel SPIRE observations
 and thus we expect that the continuum and polarization maps from SOFIA will also well resolve these dense cores.
-The proposed observations will allow us to examine whether magnetic fields are perpendicular to the main filament long axis as predicted in simulations (Li et al. 2017) and also as observed in nearby low-mass clouds (e.g., L1495/B213; Chapman et al. 2011). 
+The proposed observations will allow us to examine whether magnetic fields are perpendicular to the main filament long axis as predicted in simulations (Li et al. 2017) and also as observed in nearby low-mass clouds (e.g., L1495/B213; Chapman et al. 2011) and how this changes outside the filament, in regions where the SCUBA/POL-2 data become too noisy for reliable polarization angle measurements.
 By comparing with the Planck data, we will investigate how magnetic field directions change from the 
-cloud scale (1 pc) down to the core scale (0.1-0.2 pc) and hence establish whether the formation and fragmentation of these cold structures are also regulated by magnetic fields.
-{\bf MJ: whether this changes towards the central filament (as suggested by numerical simulations) or is affected by the fragmentation and accretion onto cores}
+cloud scale (1 pc) down to the core scale (0.1-0.2 pc) and hence establish whether 
+this changes towards the central filament (as suggested by numerical simulations) or is affected by the fragmentation and accretion onto cores}
 
 We assume a standard $\beta$=1.8 dust and consider the 160/250 $\mu$m flux density ratio from the PACS and SPIRE maps. 
 
@@ -279,23 +287,26 @@ Conversion from 214 $\mu$m flux density into that at 250 $\mu$m, and then in SPI
 given the 470 arcsec$^2$ SPIRE beam size.  In the lower column density regions where polarization fractions of $\sim3\%$ are expected, in the same
 observation we can reach down to 2.6 Jy/beam contour, enabling mapping of the extended emission notably to the north of the filament.
 
-In order to map both the east and west sides of the filament, we propose to observe two overlapping FOVs. These are centered 1\' north of the filament to include
-the fainter extended emission. Given the complex structure of the region we propose a chop throw of 500$"$ at an angle of 30$^o$. 
+In order to map both the east and west sides of the filament, we propose to observe two overlapping FOVs. These are centered 
+1 arcmin north of the filament to include
+the fainter extended emission. Given the complex structure of the region we propose a chop throw of 500 arcsec at an angle of 30 degrees. 
 The total required observation time is 8 hours, split between two 4-hour fields.
 
 
 \subsection{Analysis}
+{\bf Note from Peregrine: All of this needs to be made DAR compiliant.  How do we discuss the expertise of our team without identifying our past work??}
+
 Upon receipt of the calibrated data, there are a number of tasks that the team will undertake in order
 to create a comprehensive view of the star formation processes in these different environments. This team has a number of recent publications dealing with analysis of submillimeter and far-IR polarization data from Planck and JCMT/POL-2 - these are listed below.
 
 Issues that we have dealt with include the effect of measurement noise in polarization data with data from the Planck mission covered in a series of papers led by L. Montier and D. Alina.
-In these investigations, the parameter bias in the presence of measurement noise is addressed. It is critical to take into account all the information available in the data in order to accurately derive these polarization parameters.  In our previous work, we studied the bias on polarization fraction and angle, various estimators of these quantities, and their associated uncertainties. {\bf MJ: }This experience is used when estimating the reliability and the parameter biases in the HAWC+ data.}
+In these investigations, the parameter bias in the presence of measurement noise is addressed. It is critical to take into account all the information available in the data in order to accurately derive these polarization parameters.  In our previous work, we studied the bias on polarization fraction and angle, various estimators of these quantities, and their associated uncertainties.This experience is used when estimating the reliability and the parameter biases in the HAWC+ data.
 
 In the context of JCMT/POL observations, we have studied especially the massive IRDCs 035.39-00.33 and 034.43+00.24, where POL-2 data showed clear changes in magnetic field orientation relative to the main filament and its cores  (Liu et al. 2018, Soam et al 2019). 
 Detailed 3D radiative transfer modelling was used to examine  how the polarization angles and fractions depend on potential magnetic field geometries and grain alignment (Juvela et al. 2018).
-{\bf MJ: Similar analysis will be carried out using the HAWC+ data, supported by the existing SCUBA-POL and Planck measurements.}
-In addition, the Herschel sources seen in the G016 field will have their core properties calculated following the methods used in Montillaud et al. 2015 and the combined data will be used for dust evolution studies.
-{\bf MJ: to measure variations in dust opacity and the dust opacity spectral index}
+A similar analysis will be carried out using the HAWC+ data, supported by the existing SCUBA-POL and Planck measurements.
+In addition, the Herschel sources seen in the G016 field will have their core properties calculated following the methods used in Montillaud et al. 2015 and the combined data will be used for dust evolution studies
+to measure variations in dust opacity and the dust opacity spectral index.
 
 We will compare the HAWC+ Band E  polarization maps with those from Planck data
  to understand the magnetic field behavior on spatial scales ranging from the cores out to filaments and the
@@ -314,6 +325,9 @@ We will combine this analysis with the structure evidenced with Herschel
 at intermediate scale, including striations, filaments and cores at different evolutionary stages.
 This is a multi-parameter analysis which will include consideration of core mass, morphology, and temperature;
 the surrounding radiation field; and the mass, column density, and morphology of the parent cloud and the intermediate scale features within it.
+
+{\bf We need to talk about using the DCF method!!}
+
 We will also carry out 3D radiative transfer modeling to study the effect of magnetic field geometries, dust property variations, and the grain alignment efficiency in the field, similarly to Juvela et al. (2018).
  
 
